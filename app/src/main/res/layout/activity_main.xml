@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.abdohero.catchme.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Score :"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:padding="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="20dp"
+                android:id="@+id/score"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:padding="5dp"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ProgressBar
+                android:layout_width="match_parent"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:padding="5dp"
+                android:id="@+id/life"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:id="@+id/lifeprog"
+                android:textStyle="bold"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:padding="5dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="285dp"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="5dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <Button android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:padding="30dp"
+                        android:id="@+id/b00"
+                        android:textSize="19dp"
+                        android:textColor="@android:color/holo_red_dark"/>
+
+                    <Button android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:padding="30dp"
+                        android:id="@+id/b01"
+                        android:textSize="19dp"
+                        android:textColor="@android:color/holo_red_dark"
+                        />
+                    <Button android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:padding="30dp"
+                        android:id="@+id/b02"
+                        android:textSize="19dp"
+                        android:textColor="@android:color/holo_red_dark"
+                        />
+
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <Button android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:padding="30dp"
+                        android:id="@+id/b10"
+                        android:textSize="19dp"
+                        android:textColor="@android:color/holo_red_dark"/>
+                    <Button android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:padding="30dp"
+                        android:id="@+id/b11"
+                        android:textSize="19dp"
+                        android:textColor="@android:color/holo_red_dark"/>
+                    <Button android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:padding="30dp"
+                        android:id="@+id/b12"
+                        android:textSize="19dp"
+                        android:textColor="@android:color/holo_red_dark"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <Button android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:padding="30dp"
+                        android:id="@+id/b20"
+                        android:textSize="19dp"
+                        android:textColor="@android:color/holo_red_dark"/>
+                    <Button android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:padding="30dp"
+                        android:id="@+id/b21"
+                        android:textSize="19dp"
+                        android:textColor="@android:color/holo_red_dark"/>
+                    <Button android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:padding="30dp"
+                        android:id="@+id/b22"
+                        android:textSize="19dp"
+                        android:textColor="@android:color/holo_red_dark"
+                        />
+
+
+                </TableRow>
+
+
+            </TableLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="START"
+                android:textColor="@android:color/black"
+                android:background="@android:color/holo_red_dark"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:id="@+id/start"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="PAUSE"
+                android:textColor="@android:color/black"
+                android:background="@android:color/holo_red_dark"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:id="@+id/cancel"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
